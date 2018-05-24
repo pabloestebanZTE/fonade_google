@@ -1,0 +1,133 @@
+/*
+	Side Navigation Menu V2, RWD
+	===================
+	License:
+	https://goo.gl/EaUPrt
+	===================
+	Author: @PableraShow
+
+ */
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.10em;
+  color:#ffffff;
+  background-color:#ffffff;
+}
+
+h1 {
+  font-size:3em;
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  font-size:1em;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  line-height:1em;
+  padding-bottom: 2em;
+  color: #FB667A;
+}
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.blue { color: #ffffff; }
+.yellow { color: #ffffff; }
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #ffffff;
+	   -moz-box-shadow: 0 2px 2px -2px #ffffff;
+	        box-shadow: 0 2px 2px -2px #ffffff;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 0 0;
+}
+
+.container td, .container th {
+	  padding-bottom: 0.5%;
+	  padding-top: 0.8%;
+  padding-left:0.5%;
+  padding-right:0.5%;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	 /* background-color: #778899; */
+    background-color: #9eadbc;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #C0C0C0;
+    background-color: #ccc9c9;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { color: #000000; }
+
+
+@media (max-width: 300px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+    height: 50px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;
+}
+
+.btn span.glyphicon {
+	opacity: 0;
+}
+.btn.active span.glyphicon {
+	opacity: 1;
+}

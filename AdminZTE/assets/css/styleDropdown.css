@@ -1,0 +1,45 @@
+ .scrollable-menu {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
+.scrollable-menu::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(41, 41, 41, 0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.scrollable-menu::-webkit-scrollbar
+{
+	width: 11px;
+	background-color: #F5F5F5;
+}
+
+.scrollable-menu::-webkit-scrollbar-thumb
+{
+	background-color: #245c88;
+	border-radius: 10px;
+	
+}
+
+
+.btn-drop {
+	width: 20%;	
+}
+.drop {
+	width: 20%;	 
+}
+li.dropdown-header {
+	background-color:#245C88;
+	text-align: left;
+	font-family: impact;
+	font-size:14px;
+	letter-spacing: 8px;
+	-webkit-text-fill-color: #fff;
+}
+.mes :hover {
+	background-color:rgba(36, 92, 136, 0.5) !important;
+	color:#fff !important;
+}

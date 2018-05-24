@@ -1,0 +1,21 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /user_guide
+  static_dir: AdminZTE/user_guide
+
+- url: /assets/js/*
+  static_dir: AdminZTE/assets/js
+
+- url: /assets/css/*
+  static_dir: AdminZTE/assets/css
+
+- url: /assets/images/*
+  static_dir: AdminZTE/assets/images
+
+- url: /
+  script: AdminZTE/index.php
+
+- url: /(.+)
+  script: AdminZTE/index.php

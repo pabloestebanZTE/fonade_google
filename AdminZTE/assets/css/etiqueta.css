@@ -1,0 +1,50 @@
+#cae_texto {
+     font-family:'Open Sans';
+    width:90px;
+    height:120px;
+    font-size:20px;
+    font-weight:900;
+    color:transparent;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-align: center;
+    padding-top: -16px;   
+}
+
+#cae_texto:hover {
+   
+    color:black;
+     font-family:'Open Sans';
+    font-weight: 900;
+  font-size: 17px;
+  text-align: center;
+  text-shadow: 6px 6px 5px #292929;
+
+}
+
+    div.cae_texto {
+    font-family:'Open Sans';
+    width:90px;
+    height:120px;
+    font-size:18px;
+    font-weight:500;
+    color:transparent;
+    text-transform:none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+div.cae_texto:hover {
+    color:black;
+     font-family:'Open Sans';
+    font-weight: 900;
+  font-size: 17px;
+  text-align: center;
+  text-shadow: 6px 6px 5px #292929;
+
+}
